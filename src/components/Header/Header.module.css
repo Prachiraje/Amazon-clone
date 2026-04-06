@@ -1,0 +1,163 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: var(--amz-dark);
+  color: var(--amz-text-light);
+  padding: 5px 10px;
+  height: 60px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 0 2px;
+}
+
+.navItem:hover {
+  border: 1px solid var(--amz-text-light);
+}
+
+.logoContainer {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 12px;
+}
+
+.logo {
+  width: 97px;
+  object-fit: contain;
+  margin-top: 2px;
+  filter: brightness(0) invert(1);
+}
+
+.logoIn {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 2px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.line1 {
+  font-size: 12px;
+  color: #ccc;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.line2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.delivery {
+  margin-left: 5px;
+}
+
+.mapIcon {
+  align-self: flex-end;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+/* Search Bar */
+.searchBar {
+  display: flex;
+  flex: 1;
+  height: 40px;
+  margin: 0 15px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.searchBar:focus-within {
+  box-shadow: 0 0 0 3px var(--amz-orange);
+}
+
+.searchSelect {
+  background-color: #f3f3f3;
+  border: none;
+  border-right: 1px solid #cdcdcd;
+  color: #555;
+  padding: 0 10px;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+
+.searchInput {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 15px;
+  outline: none;
+}
+
+.searchButton {
+  background-color: #febd69;
+  border: none;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  background-color: #f3a847;
+}
+
+.language {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.flag {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.langText {
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 2px;
+}
+
+.arrowDrop {
+  font-size: 10px;
+  color: #a7acb2;
+  margin-left: 2px;
+  margin-bottom: 2px;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+
+.cartCount {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  color: #f08804;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.cartText {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}

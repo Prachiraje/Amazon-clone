@@ -1,0 +1,115 @@
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.logo {
+  width: 103px;
+  object-fit: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.formContainer {
+  width: 350px;
+  padding: 24px 26px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.inputGroup {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup label {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.inputGroup input {
+  height: 31px;
+  padding: 3px 8px;
+  border: 1px solid #a6a6a6;
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.5), 0 1px 0 rgba(0,0,0,0.07) inset;
+  outline: 0;
+  font-size: 13px;
+}
+
+.inputGroup input:focus {
+  border-color: #e77600;
+  box-shadow: 0 0 3px 2px rgba(228,121,17,0.5);
+}
+
+.infoText {
+  font-size: 12px;
+  color: #555;
+  margin-top: 4px;
+}
+
+.continueButton {
+  width: 100%;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  height: 31px;
+  font-size: 13px;
+  font-weight: 400;
+  box-shadow: 0 1px 0 rgba(255,255,255,0.4) inset;
+}
+
+.continueButton:hover {
+  background: #f4d078;
+}
+
+.termsText, .businessText, .signInSection {
+  font-size: 12px;
+  color: #111;
+  line-height: 1.5;
+}
+
+.termsText a, .businessText a, .signInSection a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.termsText a:hover, .businessText a:hover, .signInSection a:hover {
+  text-decoration: underline;
+  color: #c45500;
+}
+
+.divider {
+  height: 1px;
+  background: transparent;
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1), rgba(0,0,0,0));
+  margin: 15px 0;
+}
+
+.arrow {
+  font-size: 10px;
+  color: currentColor;
+}

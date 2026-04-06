@@ -1,0 +1,28 @@
+:root {
+  --amz-dark: #131921;
+  --amz-light-dark: #232f3e;
+  --amz-orange: #f90;
+  --amz-border-hover: rgba(255, 255, 255, 0.4);
+  --amz-bg: #e3e6e6;
+  --amz-text-light: #ffffff;
+  --amz-text-dark: #0f1111;
+  --amz-link: #007185;
+  --amz-font: "Amazon Ember", Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--amz-font);
+  background-color: var(--amz-bg);
+  color: var(--amz-text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

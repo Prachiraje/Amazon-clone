@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: var(--amz-light-dark);
+  color: var(--amz-text-light);
+  padding: 0 10px;
+  height: 39px;
+  font-size: 14px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 9px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.navItem:hover {
+  border: 1px solid var(--amz-text-light);
+}
+
+.allMenu {
+  font-weight: 700;
+  gap: 5px;
+}
+
+.menuIcon {
+  margin-right: 2px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.rightNav {
+  display: flex;
+  align-items: center;
+}
+
+.adImg {
+  height: 30px;
+  object-fit: cover;
+}
